@@ -13,7 +13,6 @@ body {
   font-family: Bitter, Arial, Helvetica, sans-serif;
   background-color: var(--background1);
   color: white;
-  overflow-x: hidden;
 }
 
 .circle {
@@ -77,6 +76,7 @@ body {
 }
 
 .portfolio-section {
+  overflow-x: hidden;
   background-color: var(--portfoliobackground);
   width: 100vw;
   height: 100%;
