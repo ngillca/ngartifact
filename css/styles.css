@@ -128,3 +128,39 @@ body {
   width: 70px;
   height: 70px;
 }
+.landing-mobile {
+  margin-top: 30%;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landing-mobile ul {
+  display: flex;
+  list-style: none;
+  border-top: 1px solid white;
+  gap: 10px;
+}
+
+.landing-mobile li {
+}
+
+.landing-mobile p {
+  font-size: 2rem;
+  color: brown;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 30px;
+}
+/* Media Queries */
+@media (max-width: 600px) {
+  .landing-mobile {
+  }
+  .top {
+    display: none;
+  }
+  .bottom {
+    display: none;
+  }
+}
