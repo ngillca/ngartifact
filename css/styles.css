@@ -277,9 +277,9 @@ body {
     justify-content: space-between;
   }
 
-  /* .portfolio-title {
-    font-size: 2rem;
-  } */
+  .portfolio-title {
+    font-size: 1.7rem;
+  }
   .title-alternate {
     padding-right: 10px;
   }
